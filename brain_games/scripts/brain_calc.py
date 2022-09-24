@@ -1,10 +1,10 @@
-from brain_games.games.game_even import game_even
+from brain_games.games.game_calc import game_calc
 import brain_games.main
 
 
 def main():
     brain_games.main.introduction()
-    game_even()
+    game_calc()
 
 
 if __name__ == '__main__':
